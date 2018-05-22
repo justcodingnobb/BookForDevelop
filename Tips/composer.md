@@ -15,9 +15,10 @@
   * 当前项目使用: 在你要使用的项目目录下，执行 `composer config repo.packagist composer https://packagist.phpcomposer.com`
   
 3.配置文档   
+
   [参考文档URL](http://docs.phpcomposer.com/04-schema.html)
   
-  ```
+  ```json
   {
    "name": "BookForDevelop", //名称 
    "version": "1.0.0", //版本号 它应该符合 "X.Y.Z" 或者 "vX.Y.Z" 的形式， -dev、-patch、-alpha、-beta 或 -RC 这些后缀是可选的   
@@ -65,4 +66,11 @@
        },           
   }
   ```
+  
+4.小知识
+  * 安装新包 `composer require xxxx`
+  
+  * 使用dev版 -dev 
+  
+  * 查看安装过程日志 -vvv 
   

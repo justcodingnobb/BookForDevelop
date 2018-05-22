@@ -1,6 +1,6 @@
 {
   "author": "Rekkles",
-  "description": " Some Little Thing For Developer",
+  "description": "Some Little Thing For Developer",
   "extension": null,
   "generator": "site",
   "isbn": "",
@@ -12,7 +12,9 @@
       "twitter": null,
       "weibo": null
     },
-    "sidebar": {}
+    "sidebar": {
+      "Rekkles's Blog": "https://rekkles.xyz"
+    }
   },
   "output": "_book",
   "pdf": {
