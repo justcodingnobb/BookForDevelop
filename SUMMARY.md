@@ -9,3 +9,5 @@
 * [Git](Tips/git.md)
 * [npm](Tips/npm.md)
 * [php](Tips/php.md)
+* [composer](Tips/composer.md)
+* [linux](Tips/linux.md)
