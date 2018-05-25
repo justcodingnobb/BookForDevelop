@@ -10,9 +10,12 @@
   * 使用 `composer -v` 可以查看composer的版本号为安装成功
   
 2.使用中国镜像（某些原因你懂的）
-  * 全局使用：`composer config -g repo.packagist composer https://packagist.phpcomposer.com`
+  * 全局使用：
   
-  * 当前项目使用: 在你要使用的项目目录下，执行 `composer config repo.packagist composer https://packagist.phpcomposer.com`
+        composer config -g repo.packagist composer https://packagist.phpcomposer.com
+  
+  * 当前项目使用: 在你要使用的项目目录下，执行 
+        composer config repo.packagist composer https://packagist.phpcomposer.com
   
 3.配置文档   
 
@@ -63,12 +66,14 @@
        },
    "suggest": { //建议安装的包
            "monolog/monolog": "Allows more advanced logging of the application flow"
-       },           
+       }      
   }
   ```
   
 4.小知识
-  * 安装新包 `composer require xxxx`
+  * 安装新包 
+  
+        composer require xxxx
   
   * 使用dev版 -dev 
   

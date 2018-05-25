@@ -1,13 +1,14 @@
 # Summary
 
 ## 开发之前
- 1. [Terminal](BeforeCoding/Shell.md)
- 2. [IDE](BeforeCoding/IDE.md)
- 3. [DB](BeforeCoding/DB.md)
+ * [Terminal](BeforeCoding/Terminal.md)
+ * [IDE](BeforeCoding/IDE.md)
+ * [DB](BeforeCoding/DB.md)
 
 ## 姿势
- 1. [Git](Tips/git.md)
- 2. [NPM](Tips/npm.md)
- 3. [PHP](Tips/php.md)
- 4. [Composer](Tips/composer.md)
- 5. [Linux](Tips/linux.md)
+ * [Git](Tips/git.md)
+ * [PHP](Tips/php.md)
+ * [Linux](Tips/linux.md)
+ * [Nginx](Tips/nginx.md)
+ * [GitBook](Tips/gitbook.md)
+ * [Composer](Tips/composer.md)

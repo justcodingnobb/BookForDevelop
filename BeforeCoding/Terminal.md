@@ -4,10 +4,25 @@
 ### Mac  
   推荐使用：[Iterm2](https://www.iterm2.com/)，搭配[Oh-My-Zsh](http://ohmyz.sh/) 
   
-  切换SHELL：`chsh -s /bin/zsh`
+  切换SHELL：
+  
+        chsh -s /bin/zsh
   
   推荐使用插件：[autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   
   推荐使用配色：
-  zsh使用ys，`vim ~/.zshrc` 修改 `ZSH_THEME=ys` 然后:wq退出之后 `source ~/.zshrc` 让它生效。
-  添加配色方案，推荐[吸血鬼主题](https://draculatheme.com/iterm/)。
+  zsh推荐使用ys 
+  
+        vim ~/.zshrc
+        
+  修改 
+        
+        ZSH_THEME=ys`
+  
+  然后:wq退出之后 `source ~/.zshrc` 让它生效
+  
+  添加配色方案，推荐[吸血鬼主题](https://draculatheme.com/iterm/)
+  
+  效果图
+  
+  ![Terminal](../image/terminal.png)

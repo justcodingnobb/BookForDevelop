@@ -16,7 +16,7 @@
       "Rekkles's Blog": "https://rekkles.xyz"
     }
   },
-  "output": "_book",
+  "output": "public",
   "pdf": {
     "fontSize": 12,
     "footerTemplate": null,
