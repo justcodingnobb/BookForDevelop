@@ -17,7 +17,7 @@
         
   修改 
         
-        ZSH_THEME=ys`
+        ZSH_THEME=ys
   
   然后:wq退出之后 `source ~/.zshrc` 让它生效
   

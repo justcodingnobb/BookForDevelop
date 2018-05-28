@@ -199,5 +199,12 @@
     
         systemctl restart php-fpm`
 
-Happy Coding!
+
+Tips：
+   1.美化输出数组
+   
+    echo "<pre>";print_r($exception);echo "<pre>";
+    
+   
+
 

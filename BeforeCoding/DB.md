@@ -1,5 +1,22 @@
 ### DB
-   只有Mac，Win自己找找是否有对应的。
+
+   Mac 安装Mysql
+   
+        brew install mysql
+        
+   ![mysql](../image/mysql.png) 
+   
+   Mysql安全配置(设置密码，移除匿名用户，删除测试DB)
+        
+        mysql_secure_installation
+   
+   启动Mysql   
+   
+        mysql.service start
+              
+
+
+   客户端只有Mac，Win找找是否有对应的。
    
    Mysql：
    
