@@ -192,9 +192,11 @@ class Module extends ServiceLocator
 
   **剩下trigger、handleRequest、send方法**
   
-  *. trigger 主要是负责实现阶段性操作，例如请求前（验证登录、路由合法）、请求后（触发dispatch之类）
-  *. handleRequest 主要是负责根据request的参数负责分配路由、找到Controller和action，将参数注入到action
-  *. send 发送响应，没什么好说的
+  * trigger 主要是负责实现阶段性操作，例如请求前（验证登录、路由合法）、请求后（触发dispatch之类）
+  
+  * handleRequest 主要是负责根据request的参数负责分配路由、找到Controller和action，将参数注入到action
+  
+  * send 发送响应，没什么好说的
    
    
       
